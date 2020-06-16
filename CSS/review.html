@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Syntax and Selector</title>
+  </head>
+  <body style="font-family: helvetica; font-size: 12px;">
+    <table border="1px">
+      <thead>
+        <tr>
+          <th>CSS Syntax</th>
+          <th>CSS Writing Styles</th>
+          <th>CSS Selector</th>
+          <th>CSS Combinator</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CSS syntax consists of selector, property, and value</td>
+          <td>
+            <ol>
+              <li>Inline</li>
+              <li>Internal</li>
+              <li>External</li>
+            </ol>
+          </td>
+          <td>
+            CSS selectors are patterns used to select the HTML element(s) you want to style.
+          </td>
+          <td>
+            There are four different CSS combinators.
+            <ol>
+              <li>descendant selector (space)</li>
+              <li>child selector (>)</li>
+              <li>adjacent sibling selector (+)</li>
+              <li>general sibling selector (~)</li>
+            </ol>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Example of CSS Syntax</h3>
+    <pre>body {
+        font-size: 16px;
+    }
+    </pre>
+    <h3>Example of CSS Types</h3>
+    <ol>
+      <li><xmp><div style="color: red;font-size = 2rem;">Inline</div></xmp></li>
+      <li><xmp>
+            <style>
+                div {
+                    color:blue;
+                    font-size: 3rem;
+                }
+            </style>
+      </xmp></li>
+      <li><xmp>
+            div {
+                color:blue;
+                font-size: 3rem;
+            }
+  </xmp></li>
+    </ol>
+    <h3>Example of CSS Selector</h3>
+    <ul>
+        <li>p {}</li>
+        <li>a {}</li>
+    </ul>
+    <h3>Example of CSS Combination</h3>
+    <ol>
+      <li>div&nbsp;a</li>
+      <li>div > a</li>
+      <li>div + a</li>
+      <li>div ~ a</li>
+    </ol>
+  </libody>
+</html>
