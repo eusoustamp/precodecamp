@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS review form</title>
+  </head>
+  <body style="font-family: tahoma; font-size: 10px;">
+    <div style="border: 1px solid;width:fit-content;">
+      <form style="margin: 10px">
+        <label for="name" style="width: 120px; display: inline-block;"
+          >Name:<span style="color: red;">*</span></label>
+        <input type="text" id="name" name="name" style="width: 120px;" /><br />
+
+        <label for="tabText" style="width: 120px; display: inline-block;"
+          >Tab Text:<span style="color: red;">*</span></label>
+        <input type="text" id="tabText" name="tapText" style="width: 120px;"
+        /><br />
+
+        <label for="url" style="width: 120px; display:inline-block;">URL:<span style="color: red;">*</span></label>
+        <span>http://www.wizehive.com/webform/</span>
+        <input
+          type="text"
+          id="url"
+          name="url"
+          style="width: 80px;"
+        /><br />
+      </form>
+
+      <div
+        style="color:rgb(105, 105, 105);width: 430px; height: 14px; padding: 5px; background: rgb(244, 245, 237);"
+      >
+        <h4 style="margin: 0px;">FORM SETUP</h4>
+      </div>
+      <form style="margin: 10px">
+        <label for="form" style="width: 120px; display:inline-block;"
+          >Form:</label
+        >
+        <select id="form" name="form" style="display: inline; width: 155px;">
+        </select>
+        <button form="form" value="form">Edit</button>
+        <br />
+
+        <label for="image" style="width: 120px; display:inline-block;"
+          >Logo:</label
+        >
+        <p style="width: 155px; display:inline-block;">No logo uploaded</p>
+        <button form="form" value="form">Upload Logo</button><br />
+
+        <label for="template" style="width: 120px; display:inline-block;"
+          >Template Text:</label
+        >
+        <select
+          id="template"
+          name="template"
+          style="display: inline; width: 155px;"
+        >
+          <option value="english">English</option>
+        </select>
+        <button form="form" value="form">Edit</button>
+        <br />
+
+        <label for="review-form" style="width: 120px; display:inline-block;"
+          >Review Form:</label
+        >
+        <select
+          id="review-form"
+          name="review-form"
+          style="display: inline; width: 155px;"
+        >
+          <option value="default">Default</option>
+        </select>
+        <br />
+
+        <label for="review-score" style="width: 120px; display:inline-block;"
+          >Review Score:</label
+        >
+        <select
+          id="review-score"
+          name="review-score"
+          style="display: inline; width: 155px;"
+        >
+          <option value="rating">Rating</option>
+        </select>
+        <button form="form" value="form">Reload Fields</button>
+        <br />
+
+        <label for="scoring-type" style="width: 120px; display:inline-block;"
+          >Scoring Type:</label
+        >
+        <select
+          id="scoring-type"
+          name="scoring-type"
+          style="display: inline; width:70px;"
+        >
+          <option value="average">Average</option>
+        </select>
+        <br />
+
+        <label for="max-score" style="width: 120px; display:inline-block;"
+          >Max Score:</label
+        >
+        <input
+          type="text"
+          id="max-score"
+          name="max-score"
+          value="4.0"
+          style="display: inline; width: 120px;">
+      </form>
+    </div>
+  </body>
+</html>
